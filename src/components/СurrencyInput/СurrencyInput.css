@@ -1,0 +1,23 @@
+.input {
+    display: flex;
+    border-radius: 4px;
+}
+
+.input__number, .input__select{
+    padding: 10px;
+}
+
+.input__number {
+    border-radius: 5px 0 0 5px;
+    max-width: 250px;
+}
+.input__select {
+    border-radius: 0 5px 5px 0;
+}
+
+.input__select, .input__select option, .input__number {
+    color: #ECB365;
+    background-color: #04293A;
+    font-size: 16px;
+}
+
